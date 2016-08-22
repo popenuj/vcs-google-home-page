@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container,
+.grid {
+  width: 100%;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+.body{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Navigation Bar
+  ========================================
+*/
+
+.nav {
+  font-size: 13px;
+  font-family: Arial;
+  line-height: 30px;
+  color: #404040;
+}
+.nav ul {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  vertical-align: center;
+  margin: 15px 15px 15px 0;
+}
+.nav li:last-child {
+  margin-right: 20px;
+}
+.nav a,
+.nav a:visited,
+.nav a:link {
+  color: #404040;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.hover-change-menu {
+    display: inline-block; 
+    vertical-align: center;
+    width: 15px;
+    height: 22px;
+    background: url("menu-hover.png") no-repeat center;
+}
+.hover-change-menu:hover img {
+    visibility: hidden;
+}
+
+/*
+  ========================================
+  Main Page
+  ========================================
+*/
+
+.main-page {
+  vertical-align: middle;
+  text-align: center;
+  height: 450px;
+  margin-top: 110px;
+}
+.logo {
+  text-align: center;
+  display: inline-block;
+}
+.search-field {
+  border: 1px solid #d9d9d9;
+  background: url("mic.png") no-repeat right;
+  margin-top: 30px;
+  text-align: left;
+  display: inline-block;
+  width: 485px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+}
+.search-field:hover {
+  border: 1px solid #757575;
+}
+.search-field:focus {
+  border-color: #4285f4
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.sign-in-btn {
+  font-size: 13px;
+  background-color: #4583ed;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  height: 30px;
+  width: 70px;
+  font-weight: bold;
+}
+.btn {
+  font-size: 13px;
+  background-color: #f3f3f3;
+  border-radius: 2px;
+  border: none;
+  color: #757575;
+  font-weight: bold;
+  margin-top: 30px;
+  height: 40px;
+}
+.btn:hover {
+  border: 1px solid #757575;
+  color: #222;
+}
+.search {
+  width: 130px;
+  margin-right: 5px;
+}
+.lucky {
+  width: 145px;
+}
+
+/*
+  ========================================
+  Foot
+  ========================================
+*/
+.foot {
+  font-size: 13px;
+  font-family: Arial;
+  background-color: #f2f2f2;
+  color: #757575;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+.left-foot {
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+.left-foot li {
+  display: inline-block;
+  vertical-align: center;
+  margin: 10px 15px 0 15px;
+}
+.right-foot {
+  text-align: right;
+  float: right;
+  width: 50%;
+}
+.right-foot li {
+  display: inline-block;
+  vertical-align: center;
+  margin: 0 15px;
+}
+.foot a,
+.foot a:visited,
+.foot a:link {
+  color: #404040;
+  text-decoration: none;
+}
+.foot a:hover {
+  text-decoration: underline;
+}
+
+
